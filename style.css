@@ -1,0 +1,130 @@
+/* Основні стилі */
+body, html {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c1d9f7; /* Світло-зелений колір фону */
+    background-image: url('https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg'); /* Задній фон */
+    background-size: cover; /* Змінює розмір зображення, щоб воно покривало весь фон */
+    background-position: center; /* Центрує зображення */
+    background-repeat: no-repeat; /* Зображення не повторюється */
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Контейнер */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Шапка */
+.main-header {
+    background-color: #8a50ef; 
+    color: #fafafa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.main-header p {
+    font-size: 1.2em;
+}
+
+.highlight {
+    color: #000504; /* М'ятний колір */
+}
+
+/* Навігація */
+.main-nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.main-nav ul li a:hover {
+    color: #333; /* Темно-сірий колір для акценту */
+}
+
+/* Секції */
+.section {
+    padding: 60px 0;
+}
+
+.about, .skills, .projects {
+    background: #d8d5f3; /* Світло-зелений фон секцій */
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 40px;
+}
+
+/* Список навичок */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-item {
+    background: #70c1b3; /* М'ятний колір фону */
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 45%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+}
+
+.skill-item i {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+/* Проекти */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-item {
+    background: #eafaf1; /* Фон проектів */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 45%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-item h3 {
+    color: #70a1a3; /* Колір заголовків проектів */
+}
+
+/* Футер */
+footer {
+    background: #70a1a3;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
